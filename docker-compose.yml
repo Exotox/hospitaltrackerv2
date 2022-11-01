@@ -1,8 +1,14 @@
-version: "3.9"
+version: '3.8'
 services:
   web:
-    build: .
+    build:
+      context: ./
+      
+    volumes:
+      - .:/src
+    command: npm start
     ports:
-      - "8000:5000"
-  redis:
-    image: "redis:alpine"
+      - "3000:3000"
+    environment:
+      NODE_ENV: dev
+
