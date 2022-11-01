@@ -5,3 +5,10 @@
 
 
 This project was developed by Joshua Davidov and Henry 
+
+
+
+npm install
+
+
+npm start
