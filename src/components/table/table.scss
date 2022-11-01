@@ -1,0 +1,57 @@
+.MuiTableBody-root {
+  color: white;
+}
+
+.css-quj9j6-MuiTable-root {
+  background-color: black;
+
+}
+
+.MuiPaper-root {
+  color: white;
+}
+
+.MuiTableContainer-root {
+  color: white;
+}
+
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  color: white;
+}
+
+
+.table {
+  color: white;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+
+  .cellWrapper {
+    display: flex;
+    align-items: center;
+
+    .image {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+  }
+
+  .status {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.Available {
+      color: green;
+      background-color: rgba(0, 128, 0, 0.151);
+    }
+
+    &.Claimed {
+      color: goldenrod;
+      background-color: rgba(189, 189, 3, 0.103);
+    }
+  }
+}
